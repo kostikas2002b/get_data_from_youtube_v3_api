@@ -1,0 +1,38 @@
+form {
+    width: 450px;
+}
+
+form > div {
+    margin: 0.5rem auto;
+    display: flex;
+}
+
+input {
+    flex-grow: 2;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    text-align: right;
+    border-bottom-width: 1px;
+}
+
+table,
+th,
+td {
+    border: 1px solid black;
+    border-collapse: collapse;
+
+}
+
+th,
+td {
+    padding: 4px;
+}
+
+th a {
+    font-size: 0.5rem;
+}
+
+tr > td:first-of-type {
+    text-align: center;
+}
